@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
+  scroll-behavior: auto;
+  background-color: #ffffff !important;
+}
+
+.numbersContainer {
+  background-image: url(../../Resources/landing\ page\ bg-4.avif);
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  width: 100vw;
+  /* height: 65vw; */
+  color: #ffffff;
+  margin-top: -5vw;
+}
+
+.numbersMobileContainer {
+  display: none;
+}
+
+.numbersBox {
+  width: 70vw;
+  height: 60vh;
+  margin: 0vw auto 10vw auto !important;
+  padding-bottom: 10vh !important;
+  background-color: black;
+  opacity: 0.7;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  text-decoration: underline;
+}
+
+.head h3 {
+  font-size: 2vw !important;
+  margin-top: 15vh;
+  margin-bottom: 3vw;
+
+}
+
+.numbers1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+  margin: 3vw auto 1vw auto !important;
+}
+
+.numbers2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+  margin: 4vw auto 3vw auto !important;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+}
+
+.flex h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+  height: 5vh;
+}
+.flex3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+}
+.p1 {
+  margin-top: 1vw;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.p2 {
+  margin-top: -1.3vw;
+  margin-bottom: 1.5vw;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.numbersContainer h6 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 1.5vw;
+  font-size: 1.5vw;
+  z-index: 51;
+}
+
+@media only screen and (max-width: 575px) {
+  .numbersContainer {
+    display: none;
+  }
+
+  .numbersMobileContainer {
+    display: block;
+    background-image: url(../../Resources/landing\ page\ new-3\ mobl\ bg.avif);
+    background-position: cover;
+    background-size: 100% auto;
+    width: 100vw;
+    height: 90vh;
+    padding-top: 5vh;
+    color: #ffffff;
+  }
+
+  .numbersBox {
+    width: 80vw;
+    height: auto;
+    padding-top: 5vw !important;
+    padding-bottom: 5vw !important;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 50;
+    border-radius: 4vw 4vw 4vw 4vw;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+
+  .numbersBox .Mobilehead h3 {
+    margin-top: 10vw !important;
+    font-size: 5vw;
+    text-decoration: underline;
+  }
+
+  .numbers1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+  }
+
+  .Mflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin-bottom: 3vw;
+
+  }
+
+  .Mflex h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 8vw !important;
+  }
+
+  .Mflex h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 6vw !important;
+    margin-top: -1vw;
+  }
+
+  .Mflex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    height: 5vh; 
+    margin-bottom: 2vw;
+
+  }
+
+  .Mflex2 h1 {
+    font-size: 10vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+
+  .p1 {
+    margin-top: -2vw !important;
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+  
+  .p2 {
+    margin-top: 1vw !important;
+    /* margin-bottom: 1.5vw; */
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 3vw;
+  }
+
+  .Mflex h6{
+    font-size: 6vw;
+    margin-top: 1vw;
+    color: #ffffff;
+
+  }
+}

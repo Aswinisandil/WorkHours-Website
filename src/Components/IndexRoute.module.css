@@ -1,0 +1,18 @@
+.mobilecontent {
+    display: none; /* Hide on non-mobile devices */
+  }
+  
+  .nonmobilecontent {
+    display: block; /* Show on non-mobile devices */
+  }
+  
+  @media (max-width: 575px) {
+    .mobilecontent {
+      display: block; /* Show on mobile devices */
+    }
+  
+    .nonmobilecontent {
+      display: none; /* Hide on mobile devices */
+    }
+  }
+  

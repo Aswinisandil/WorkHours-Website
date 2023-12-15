@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #f6f6f6 !important;
+  overflow-x: hidden;
+}
+
+.newsletter{
+  margin-top: 4vw;
+}
+
+.subscribe{
+  font-size: 1.5vw !important;
+  font-weight: 600 !important;
+  color: #ffffff;
+}
+
+.newsletter input{
+   width: 20vw;
+   padding: 0.3vw 0.8vw;
+   border-radius: 0.4vw;
+}
+
+.newsletter button{
+  width: 9vw;
+  font-size: 1.1vw !important;
+  font-weight: 600;
+  padding: 0.5vw;
+  border-radius: 0.4vw;
+  /* border: 1px solid #ffffff; */
+  border: none;
+  color: #ffffff;
+  margin-top: 1.5vw;
+  margin-left: 5.5vw;
+  background-image: linear-gradient(to top, #175779 25%, #d1b442 100%);
+}
+
+.formborder{
+  border: 1px solid #ffffff;
+  padding: 1.5vw 3vw;
+  margin-top: 1.5vw;
+  border-radius: 0.3vw;
+}
+
+@media only screen and (max-width: 575px){
+
+  .newsletter{
+    margin-top: 0 !important;
+  }
+  .subscribe{
+    font-size: 4.5vw !important;
+    font-weight: 600 !important;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .newsletter input{
+     width: 70vw;
+     padding: 1.5vw 3vw;
+     border-radius: 0.4vw;
+     font-size: 3vw;
+  }
+  
+  .newsletter button{
+    width: 28vw;
+    font-size: 3.5vw !important;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    padding: 2vw;
+    border-radius: 1.5vw;
+    /* border: 1px solid #ffffff; */
+    border: none;
+    color: #ffffff;
+    margin-top: 5vw;
+    margin-left: 21.5vw;
+    background-image: linear-gradient(to top, #175779 25%, #d1b442 100%);
+  }
+  
+  .formborder{
+    border: 1px solid #ffffff;
+    padding: 5vw 7vw;
+    margin-top: 3vw;
+    border-radius: 1vw;
+  }
+}

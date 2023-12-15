@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;600;700&family=Teko:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  scroll-behavior: auto;
+  background-color: #f6f6f6 !important;
+}
+
+.contactContainer {
+  background-image: url(../../Resources/contactusbg.avif);
+  background-position: cover;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 90vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+body .gradientBorder {
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #0d6691 20%, #a9a932 90%, #a9a932 100%);
+  border-image-slice: 1;
+  border-radius: 15px;
+  width: 18vw;
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 0.5vw;
+  margin-top: 10vw !important;
+  margin-bottom: 2vw !important;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw !important;
+}
+
+.connect {
+  letter-spacing: 0.3vw;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1vw !important;
+}
+
+.talk {
+  font-weight: bold;
+  font-size: 3.5vw;
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 3px;
+  /* background-image: linear-gradient(
+    0deg,
+    #0d6691 20%,
+    #a9a932 90%,
+    #a9a932 100%
+  ); */
+  opacity: 0.8;
+  padding: 0.4vw 2vw;
+}
+.talk a{
+  color: white;
+}
+
+.talk a:hover {
+  border-bottom: 3px solid #0d6691;
+  color: #ffffff !important;
+}
+
+.Contact2 {
+  background-image: url(../../Resources/contactusbg-2.avif);
+  background-position: cover;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.Contact2 .first {
+  font-size: 1.7vw;
+  margin-top: 5vw !important;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.Contact2 .second {
+  font-size: 3vw;
+  /* margin-top: 0.5vw; */
+  font-weight: 800;
+}
+
+.contentp {
+  font-size: 1.4vw;
+  margin: 2vw 22vw 0 22vw !important;
+  text-align: center;
+}
+
+.contentp div {
+  display: none;
+}
+
+.content2 {
+  font-size: 1.4vw;
+  margin: 0vw 22vw 0 22vw !important;
+  text-align: center;
+  color: #686868;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 4vw 25vw 0 25vw !important;
+  align-content: center;
+  gap: 2vw;
+}
+
+.location,
+.mail,
+.website {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  font-size: 0.9vw;
+  /* border: 2px solid black; */
+}
+
+.location p {
+  width: 18vw;
+  font-weight: 600;
+}
+
+.mail p,
+.website p {
+  width: 12vw;
+  font-weight: 600;
+}
+
+.location svg,
+.mail svg,
+.website svg {
+  /* width: 2.2vw;
+  height: 2.2vw; */
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.dbaContainer {
+  background-image: url(../../Resources/contact\ us-3.avif);
+  background-position: cover;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.dbaContainer .dbaContent {
+  position: relative;
+  margin-top: 25vw;
+  color: #fcfcfc;
+  /* border: 2px solid white; */
+  margin-top: 28vw;
+  margin-right: 40vw;
+}
+
+.dbaContent h1 {
+  font-size: 3vw;
+}
+
+.dbaContent p {
+  font-size: 1.2vw;
+  width: 35vw;
+  margin-top: 1.5vw;
+}
+
+@media only screen and (max-width: 575px) {
+  .contactContainer {
+    background-image: url(../../Resources/contactusmobilebg.avif);
+    background-position: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  body .gradientBorder {
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(
+      to top,
+      #0d6691 20%,
+      #a9a932 90%,
+      #a9a932 100%
+    );
+    border-image-slice: 1;
+    border-radius: 15px;
+    width: 50vw;
+    text-align: center;
+    font-size: 8vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding: 1.5vw !important;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw !important;
+  }
+
+  .contentp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    letter-spacing: 0.4px;
+    font-family: "Poppins", sans-serif; 
+    margin: 2vw 15vw 0 15vw !important;
+  }
+
+  .contentp div {
+    display: block;
+    color: #4e4e4e;
+  }
+
+  .content2 {
+    display: none;
+  }
+
+  .connect {
+    letter-spacing: 0.3vw;
+    font-size: 4.5vw;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5vw !important;
+  }
+
+  .talk {
+    font-weight: bold;
+    font-size: 7.5vw;
+    /* background-image: linear-gradient(
+      0deg,
+      #0d6691 20%,
+      #a9a932 90%,
+      #a9a932 100%
+    ); */
+    opacity: 0.8;
+    padding: 3vw !important;
+    border-radius: 2vw;
+  }
+
+  .talk a {
+    color: white;
+  }
+
+  .talk a:hover {
+    border-bottom: 3px solid #0d6691;
+  }
+
+  .Contact2 {
+    background-image: url(../../Resources/contactusmobilebg-2.avif);
+    /* background-position: cover; */
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw !important;
+  }
+
+  
+
+  /* .connect {
+    font-size: 3.5vw;
+  } */
+
+  .Contact2 .first {
+    font-size: 5vw;
+  }
+
+  .Contact2 .second {
+    font-size: 9vw;
+    margin-bottom: 3vw;
+  }
+
+  .contentp {
+    font-size: 3.5vw;
+    margin: 5vw 8vw 0 8vw !important;
+    text-align: center;
+  }
+
+  .address {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 8vw 20vw 15vw 20vw !important;
+    gap: 5vw;
+  }
+
+  .location,
+  .mail,
+  .website {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    font-size: 2.5vw;
+    margin-left: 2vw !important;
+  }
+
+  .location .locate {
+    width: 70vw;
+    font-weight: 500;
+    line-height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+  }
+
+  .mail .email,
+  .website .web {
+    width: 70vw;
+    font-weight: 500;
+    line-height: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 3.5vw;
+  }
+
+  .location svg,
+  .mail svg,
+  .website svg {
+    font-size: 4.5vw;
+  }
+
+  .growthFormIn {
+    /* border: 4px solid rgb(44, 44, 44); */
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    border-radius: 2vw;
+  }
+
+  .GrowthForm h1 {
+    font-size: 6vw;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .growthFormIn input {
+    width: 58vw;
+    height: 8vw;
+    border-radius: 1vw;
+    margin: 8vw 7vw 2vw 7vw;
+    border: none;
+    font-size: 2.5vw;
+    padding-left: 2vw;
+    color: black;
+  }
+
+  .button {
+    cursor: pointer;
+    width: 56vw;
+    height: 9.5vw;
+    font-size: 3.5vw;
+    text-align: center !important;
+    padding: 2vw 1vw 3.5vw 1vw;
+    font-weight: 600;
+    background-color: #175779;
+    color: #fcfcfc;
+    border-radius: 1vw;
+    margin: 7vw auto 5vw auto;
+    z-index: 10;
+    background-image: linear-gradient(200deg, #175779 50%, #d1b442 100%);
+  }
+
+  
+}

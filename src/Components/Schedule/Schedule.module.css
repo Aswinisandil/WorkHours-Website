@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* overflow-x: hidden; */
+  /* overflow-y: auto; */
+  scroll-behavior: auto;
+}
+
+.schedule {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+.growthFormIn {
+  width: 25vw;
+  /* margin-bottom: 5vw !important; */
+  border-radius: 1vw;
+}
+
+.growthFormIn input {
+  width: 25vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  margin: 5vw 4vw 0 4vw !important;
+  border: none;
+  font-size: 1vw;
+  padding-left: 1vw;
+}
+
+.GrowthForm {
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.button {
+  width: auto;
+  font-size: 1.5vw;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 1.5vw;
+  margin: 3vw auto 3vw auto !important;
+  background-color: #175779;
+  color: #fcfcfc;
+  border-radius: 0.6vw;
+  background-image: linear-gradient(200deg, #175779 50%, #d1b442 100%);
+}
+
+@media only screen and (max-width: 575px) {
+  .schedule {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vw;
+  }
+  .growthFormIn {
+    width: 75vw;
+    margin-bottom: 5vw;
+    border-radius: 2vw;
+  }
+
+  .GrowthForm h1 {
+    font-size: 5vw;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .growthFormIn input {
+    width: 58vw;
+    height: 8vw;
+    border-radius: 1.2vw;
+    margin: 8vw 7vw 2vw 7vw;
+    border: none;
+    font-size: 3vw;
+    padding-left: 2vw;
+    color: black;
+  }
+
+  .button {
+    cursor: pointer;
+    width: 58vw;
+    height: 13vw;
+    font-size: 4vw;
+    text-align: center !important;
+    padding: 3vw 1vw 3vw 1vw;
+    text-align: center;
+    font-weight: 600;
+    background-color: #175779;
+    color: #fcfcfc;
+    border-radius: 2vw;
+    margin: 7vw auto 5vw auto;
+    z-index: 10;
+    background-image: linear-gradient(200deg, #175779 50%, #d1b442 100%);
+  }
+}

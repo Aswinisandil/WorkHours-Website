@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
+  scroll-behavior: auto;
+}
+
+.mentorContainer {
+  position: relative;
+  margin-top: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vw;
+  background-color: #181818;
+}
+
+.mentorMobile {
+  display: none;
+}
+
+.mentorship {
+  width: 60vw;
+  height: 32vw;
+  border: 3px solid #4f4f4f;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+
+.mentorship h5,
+.mentorship h2,
+.mentorship p {
+  position: relative;
+  margin-bottom: 1vw;
+}
+
+.mentorship h5 {
+  margin-top: 10vh;
+  letter-spacing: 1px;
+  font-size: 1.5vw;
+}
+
+.mentorship h2 {
+  color: #eaeaea;
+  font-size: 1.8vw;
+  font-weight: 700;
+}
+
+.mentorship p {
+  width: 50vw;
+  text-align: center;
+  font-size: 1.2vw;
+  color: #dfdfdf;
+}
+
+a {
+  text-decoration: none;
+}
+
+.call {
+  margin: 0 auto;
+}
+
+.schedule {
+  position: absolute;
+  width: 20vw !important;
+  cursor: pointer;
+  font-size: 0.9vw;
+  font-weight: 500;
+  padding: 1vw;
+  margin-top: 3vw;
+  background-color: #175779;
+  color: #fcfcfc;
+  border-radius: 0.6vw;
+  margin-left: -9vw;
+  background-image: linear-gradient(200deg, #175779 50%, #d1b442 100%);
+}
+
+.schedule .navlink {
+  color: white;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 575px) {
+  .mentorContainer {
+    display: none;
+  }
+  .mentorContainer h5 {
+    display: none;
+  }
+
+  .mentorMobile {
+    width: 100vw;
+    background-color: #0f0f0f;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .mentorship1{
+    margin: 8vw 11vw 5vw 11vw;
+
+  }
+
+  .mentorship1 .headx {
+    width: 85vw;
+    font-size: 9vw;
+    font-weight: 600;
+    background: linear-gradient(100deg, #a9a932 0%, #0d6691 40%);
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    background-clip: text;
+    color: transparent;
+    line-height: 1.2 !important;
+    margin-top: 15vw;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: -0.5px;
+    margin-top: 10vh;
+  }
+
+  .mentorship1 .heady {
+    font-size: 7vw;
+    font-weight: 500;
+    width: 85vw;
+    line-height: 1.2;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: -0.5px;
+    margin-top: 5vw !important;
+  }
+
+  .mentorship1 .paragraph {
+    width: 85vw;
+    line-height: 1.5;
+    color: #ccc7c7;
+    margin-top: 5vw !important;
+  }
+
+  .call1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .schedule1 {
+    cursor: pointer;
+    width: 68vw;
+    height: 13vw;
+    font-size: 4vw;
+    text-align: center !important;
+    padding: 3.5vw 1vw 1vw 1vw;
+    font-weight: 600;
+    margin-top: 15vw;
+    background-color: #175779;
+    color: #fcfcfc;
+    border-radius: 2vw;
+    z-index: 10;
+    margin-bottom: 15vw;
+    background-image: linear-gradient(200deg, #175779 50%, #d1b442 100%);
+  }
+
+  .schedule1 .navlink {
+    color: white;
+  }
+}

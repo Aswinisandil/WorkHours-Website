@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  scroll-behavior: auto;
+  background-color: #f6f6f6 !important;
+}
+
+.MarkettingContainer {
+  width: 70vw;
+  margin: 0vw auto 0 auto;
+  padding: 3vw;
+  background-color: #ffffff !important;
+  border-radius: 0vw 0vw 1vw 1vw;
+  margin-bottom: 3vw;
+  /* z-index: 50; */
+}
+
+.sec1 h1 {
+  background-image: linear-gradient(to bottom, #0d6691 20%, #a9a932 90%, #a9a932 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  height: 5vw;
+  font-weight: 800;
+  margin-top: 3vw;
+  font-size: 3vw;
+}
+
+.sec1 h4{
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin-top: 1vw;
+}
+
+.dear{
+  margin-top: 5vw;
+  font-size: clamp(1rem, 1vw, 3.3rem);
+
+}
+
+.sec2 .offer{
+  text-decoration: underline;
+  margin-top: 5vw;
+  font-size: 2.5vw;
+  margin-bottom: 2vw;
+}
+
+.pointhead{
+  font-weight: 800;
+  margin-top: 3vw !important;
+  margin-bottom: 2vw;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.regards{
+  font-weight: bold;
+  text-align: left;
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.regardsBox{
+  width: 20vw;
+  align-self: flex-end;
+  margin-top: 6vw;
+  margin-bottom: 3vw;
+}
+
+.regardsBox p{
+  text-align: center;
+  margin: -0.1vw; 
+}
+
+.names{
+  margin-top: 1vw !important;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+
+.graph{
+  font-size: clamp(0.9rem, 1.5vw, 1.4rem);
+}
+
+
+@media only screen and (max-width: 575px){
+  .MarkettingContainer {
+  width: 90vw;
+  margin: 5vw auto 0 auto;
+  padding: 2vw;
+  background-color: #ffffff !important;
+  border-radius: 1vw;
+  margin-bottom: 3vw;
+  /* z-index: 50; */
+}
+
+.sec1 h1 {
+  background-image: linear-gradient(to bottom, #0d6691 20%, #a9a932 90%, #a9a932 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  height: auto;
+  padding: 1vw 0vw 5vw 0vw;
+  font-weight: 800;
+  font-size: 7vw;
+}
+
+.sec1 h4{
+  font-size: 4vw;
+  font-weight: 700;
+  margin-top: 1vw;
+}
+
+.dear{
+  margin-top: 5vw;
+  font-size: 4vw;
+}
+
+
+.sec2 h3{
+  text-decoration: underline;
+  margin-top: 5vw;
+  font-size: 4vw;
+  margin-bottom: 2vw;
+}
+
+.regards{
+  font-weight: bold;
+  text-align: left;
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.regardsBox{
+  width: 35vw;
+  align-self: flex-end;
+  margin-top: 6vw;
+  margin-bottom: 3vw;
+}
+
+.regardsBox p{
+  text-align: center;
+  margin: -0.1vw; 
+}
+
+.names{
+  margin-top: 1vw !important;
+  font-size: clamp(0.5rem, 3.5vw, 1.5rem);
+
+}
+
+.graph{
+  font-size: clamp(0.5rem, 3.5vw, 1.5rem);
+}
+
+.sec2 .pointhead{
+  font-weight: 800;
+  margin-top: 3vw;
+  font-size: clamp(0.5rem, 4vw, 2.5rem);
+}
+
+.sec2 .offer{
+  text-decoration: underline;
+  margin-top: 5vw;
+  font-size: 4.5vw;
+  margin-bottom: 2vw;
+}
+
+}

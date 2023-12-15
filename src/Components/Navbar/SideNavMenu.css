@@ -1,0 +1,64 @@
+/* SideNavMenu container */
+.side-nav-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Start off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  /* Opened state */
+  .side-nav-menu.open {
+    left: 0;
+  }
+  
+  /* Menu button */
+  .menu-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Menu content */
+  .menu-content {
+    padding: 20px;
+  }
+  
+  /* Menu items */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  /* Menu item hover effect */
+  a:hover {
+    text-decoration: underline;
+  }
+  

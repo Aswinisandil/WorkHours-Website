@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  scroll-behavior: auto;
+  background-color: #f6f6f6 !important;
+}
+
+.test1Container {
+  background-image: url(../../Resources/testimonial-bg1.avif);
+  background-position: center;
+  background-size: 100vw 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh;
+  padding-top: 10vh;
+  background-color: #000000;
+}
+
+.innerContainer {
+  margin: 0vw auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerContainer h1 {
+  color: #fcfcfc;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #0d6691 20%, #a9a932 90%, #a9a932 100%);
+  border-image-slice: 1;
+  border-radius: 15px;
+  width: 20vw;
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 0.5vw;
+  margin-top: 5vw;
+}
+
+.innerContainer p {
+  font-size: 1.5vw;
+  color: #fcfcfc;
+  margin-top: 1vw;
+  letter-spacing: 1px;
+  
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  margin-top: 4vw;
+}
+
+.card {
+  width: 18vw;
+  height: 18vw;
+  background-color: #313131;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5vw;
+}
+
+.cardimage {
+  width: 11vw;
+  height: 11vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardimage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.card h3 {
+  color: #fcfcfc;
+  font-size: 1.5vw;
+  font-weight: 800;
+  background-image: linear-gradient(
+    to bottom,
+    #a9a932 20%,
+    #a9a932 30%,
+    #0d6691 80%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card .name {
+  margin-top: 1vw;
+  font-size: 1.3vw !important;
+  color: #fcfcfc;
+  font-weight: 500;
+}
+
+.mobileContainer {
+  display: none;
+}
+
+@media only screen and (max-width: 575px) {
+  .test1Container {
+    display: none;
+  }
+
+  .mobileInner {
+    margin: 0vw auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileContainer {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../Resources/testimonialmobilebg1.avif);
+    background-position: cover;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+
+  }
+
+  .paragraphBox{
+    background-color: #313131;
+    width: 80vw;
+    height: auto;
+    border-radius: 2vw;
+    margin: 0vw auto 0vw auto;
+    padding: 3vw 4vw 1vw 5vw;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .paragraphBox p{
+    font-size: 3.5vw;
+    color: #c2c2c2;
+    font-weight: 400;
+  }
+
+  .quotes1{
+    background-image: linear-gradient(
+      to bottom,
+      #0d6691 20%,
+      #a9a932 90%,
+      #a9a932 100%
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10vw;
+  }
+
+  .star{
+   width: 35vw;
+   margin: 5vw auto 0vw auto;
+  }
+
+  .star img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .quotes2{
+    background-image: linear-gradient(
+      to bottom,
+      #0d6691 20%,
+      #a9a932 90%,
+      #a9a932 100%
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10vw;
+    margin-left: 90%;
+  }
+
+  
+}
