@@ -7,8 +7,8 @@
   body {
     margin: 0 !important;
     padding: 0 !important;
-    background-color: #f6f6f6 !important;
     overflow-x: hidden;
+    background-color: #000000;
   }
 
 
@@ -189,7 +189,7 @@
 
       .footerBorder{
         width: 95vw;
-        border: 2px solid #a8a7a7;
+        /* border: 2px solid #a8a7a7; */
         padding: 3vw;
       }
     
@@ -206,9 +206,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1vw;
+        gap: 2vw;
         font-size: 3.5vw;
-        margin-top: 3vw;
+        margin-top: 1vw;
       }
     
       .logo{
@@ -240,7 +240,7 @@
         justify-content: center;
         align-items: center;
         width: 80vw;
-        gap: 1vw;
+        gap: 3vw;
         margin-top: 2vw;
         
       }
@@ -299,6 +299,10 @@
         gap: 1em;
         padding-top: 1vw;
       }
+
+      .footerflex1 p{
+        text-align: center;
+      }
     
       
       .footerflex2 {
@@ -334,23 +338,23 @@
         text-decoration: none;
       }
 
-      ul li{
+      /* ul li{
         padding-bottom: 0 !important;
         text-align: center;
         margin: 0 !important;
-      }
+      } */
     
       .SocialIcons{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 3vw;
+        gap: 4vw;
        }
     
        .SocialIcons a{
         text-decoration: none;
         color:rgb(158, 158, 158);
-        font-size: 3.5vw;
+        font-size: 4vw;
        }
     
         footer a:hover{

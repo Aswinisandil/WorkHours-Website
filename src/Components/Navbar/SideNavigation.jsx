@@ -29,7 +29,7 @@ const SideNavMenu = () => {
           &times;
         </button>
 
-        <ul>
+        <ul className={css.sideul}>
           <li>
             <a href="#">Item 1</a>
           </li>

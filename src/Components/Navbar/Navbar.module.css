@@ -185,9 +185,15 @@ li {
 
 
   .navigation{
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    gap: 40vw;
+    background-color: black !important;
+    z-index: 500;
+
   }
 
   .logo {
@@ -226,7 +232,6 @@ li {
 
   header{
     padding: 15px 20px;
-    height: 40px;
     color: #fcfcfc;
   }
 
@@ -262,7 +267,7 @@ li {
    ul li a, ul li div{
     text-decoration: none;
     color: #fcfcfc;
-    font-size: 4vw;
+    font-size: 4vw !important;
    }
 
    .SocialIcons{

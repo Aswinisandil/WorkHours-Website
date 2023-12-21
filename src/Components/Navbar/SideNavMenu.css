@@ -42,8 +42,8 @@
   }
   
   /* Menu items */
-  ul {
-    list-style: none;
+  .sideul {
+    list-style: none !important;
     padding: 0;
   }
   
